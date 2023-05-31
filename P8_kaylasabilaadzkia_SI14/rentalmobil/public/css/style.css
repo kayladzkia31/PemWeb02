@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(85, 134, 226);
+}
+
+.card{
+    border: 1px solid rgb(20, 106, 235);
+    max-width: fit-content;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: auto;
+    align-self: center;
+    box-shadow: 0.5rem 0.5rem;
+    background-color: rgb(251, 251, 255);
+}
+table {
+    margin-bottom: 1.5rem;
+}
+
+table, th, td{
+    border: 1px solid rgb(26, 125, 172);
+    border-spacing: 0;
+}
+h2 {
+    text-align: center;
+}
+th, td {
+    padding: 1rem;
+}
