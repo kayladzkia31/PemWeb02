@@ -8,7 +8,7 @@ include_once '../template/navbar.php';
 // $edit->execute();
 
 // 
-$id = $_GET['idedit'];
+$id = $_GET['diedit'];
 $sql = "SELECT * FROM produk WHERE id=?";
 $statement = $dbh->prepare($sql);
 $statement->execute([$id]);

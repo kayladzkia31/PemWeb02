@@ -8,7 +8,7 @@
 		/>
 		<meta name="description" content="" />
 		<meta name="author" content="" />
-		<title>Project UTS</title>
+		<title>Shop Homepage - Start Bootstrap Template</title>
 		<!-- Favicon-->
 		<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 		<!-- Bootstrap icons-->
@@ -23,7 +23,7 @@
 		<!-- Navigation-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container px-4 px-lg-5">
-				<a class="navbar-brand" href="#!">Toko Pakaian</a>
+				<a class="navbar-brand" href="#!">Judul Web kamu</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -40,7 +40,7 @@
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#!">Home</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="form_produk.php">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#!">About</a></li>
 						<li class="nav-item dropdown">
 							<a
 								class="nav-link dropdown-toggle"
@@ -52,9 +52,10 @@
 								>Shop</a
 							>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="list_produk.php">All Products</a></li>
+								<li><a class="dropdown-item" href="#!">All Products</a></li>
 								<li><hr class="dropdown-divider" /></li>
-								
+								<li><a class="dropdown-item" href="#!">Popular Items</a></li>
+								<li><a class="dropdown-item" href="#!">New Arrivals</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -72,8 +73,8 @@
 		<header class="bg-dark py-5">
 			<div class="container px-4 px-lg-5 my-5">
 				<div class="text-center text-white">
-					<h1 class="display-4 fw-bolder">Thelasky Butique</h1>
-					<p class="lead fw-normal text-white-50 mb-0">Pakaian Berkualitas Harga Bersahabat</p>
+					<h1 class="display-4 fw-bolder">Toko Kamu</h1>
+					<p class="lead fw-normal text-white-50 mb-0">Deskripsi toko kamu</p>
 				</div>
 			</div>
 		</header>
