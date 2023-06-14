@@ -33,3 +33,14 @@ route::post('/mobil/simpanData',[MobilController::class,'store']);
 route::get('/merk',[MerkController::class,'index']);
 route::get('/merk/create',[MerkController::class,'create']);
 route::post('/merk/simpanData',[MerkController::class,'store']);
+
+route::get('/merk/edit/{id}',[MerkController::class,'edit']);
+route::post('/merk/update/{id}',[MerkController::class,'update']);
+route::get('/merk/delete/{id}',[MerkController::class,'delete']);
+
+route::get('/tipe_mobil',[TipeMobilController::class,'index']);
+route::get('/tipe_mobil/create',[TipeMobilController::class,'create']);
+route::post('/tipe_mobil/simpanData',[TipeMobilController::class,'store']);
+route::get('/tipe_mobil/edit/{id}',[TipeMobilController::class,'edit']);
+route::post('/tipe_mobil/update/{id}',[TipeMobilController::class,'update']);
+route::get('/tipe_mobil/delete/{id}',[TipeMobilController::class,'delete']);

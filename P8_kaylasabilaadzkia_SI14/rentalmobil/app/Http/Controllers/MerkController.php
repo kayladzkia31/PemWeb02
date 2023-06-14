@@ -14,7 +14,7 @@ class MerkController extends Controller
     }
     function create ()
     {
-        return view('pages,merk,create');
+        return view('pages.merk.create');
     }
     function store (Request $request)
     {
@@ -23,5 +23,28 @@ class MerkController extends Controller
         $merkData->save();
 
         return \redirect()->to('/merk')->with('success','Data berhasil disimpan');
+    }
+
+    function edit($id)
+    {
+        $merkData = Merk::find($id); // SELECT * FROM merks id =$id
+        return view('pages.merk.edit',['merkData' => $merkData]);
+    }
+
+    function update($id, Request $request)
+    {
+        $merkData = Merk::find($id);
+        $merkData->merk = $request->merk;
+        $merkData->save();
+
+        return redirect()->to('/merk')->with('success', 'Data berhasil diupdate');
+    }
+
+    function delete($id)
+    {
+        $merkData = Merk::find($id); 
+        $merkData->delete();
+
+        return redirect()->to('/merk')->with('success', 'Data merk berhasil dihapus');
     }
 }
